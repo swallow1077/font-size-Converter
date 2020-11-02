@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cp test.css_bk test.css && npm run process-css test.css",
+    "test": "cp test.css test-style.css && npm run process-css test-style.css",
     "process-css": "node main.js"
   },
   "author": "",
