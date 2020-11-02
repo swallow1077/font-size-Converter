@@ -1,0 +1,495 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{ overflow-y: scroll; overflow-x: hidden }
+body { margin:0 auto ;  background:url(/images/bg.jpg);line-height:1.25rem;font-size:0.8125rem;color:#636261;}
+a{outline: none; /* for Firefox Google Chrome  */ behavior:expression(this.onFocus=this.blur()); /* for IE */ cursor:pointer; }
+input{outline: none; /* for Firefox Google Chrome  */ behavior:expression(this.onFocus=this.blur()); /* for IE */  border:1;}
+a:link { text-decoration: none; color:inherit;}
+a:visited { text-decoration: none; color:inherit;}
+a:hover { text-decoration: none; color:#FF9900;}
+ul{ list-style: none;}
+
+/*=========================================================================================================================
+  基本共用設定 >> 首內頁
+==========================================================================================================================*/
+/*================================= 共用文字 ============================================*/
+.word1{ font-size:0.83333rem; color: #FFF; text-align: right; letter-spacing:0.125rem;}
+.word2{ font-size:0.91667rem; color: #333; text-align:center; letter-spacing:0.125rem; line-height:2.8em;}
+.word3{ font-size:0.75rem; color: #999; text-align: left; letter-spacing:0.125rem; line-height:1.5em;}
+.word4{ font-size:0.83333rem; color: #666; text-align: left; letter-spacing:0.125rem; line-height:1em;}
+.word5{ font-size:0.75rem; color: #333; text-align: left; letter-spacing:0.0625rem; line-height:2em;}
+.word6{ font-size:0.75rem; color: #333; text-align: center; letter-spacing:0.0625rem; line-height:3em; text-indent:3em;}
+.word7{ font-size:0.91667rem; color: #333; text-align: center; letter-spacing:0.0625rem; line-height:3.5em; }
+.word8{ font-size:0.75rem; color: #666; text-align: center; letter-spacing:0.0625rem; line-height:2.8em;}
+.word9{ font-size:0.91667rem; color: #333; text-align: left; letter-spacing:0.09375rem; line-height:3.7em;  text-indent:1em;}
+.word10{ font-size:0.83333rem; color: #333; text-align: right; letter-spacing:0.0625rem; line-height:1em; }
+.word11{ font-size:1.08333rem; color: #FFF; text-align: center; letter-spacing:0.0625rem; line-height:2em; font-weight:bold; }
+
+
+/*================================= header ============================================*/
+#header{ background-image:url(/images/index_02.png); height:142px; width:100%; top:0px; z-index:500; position: fixed;}
+#header1 { height:142px; width:1000px; position:absolute; top:0; right:50%; z-index:500; margin:0px -500px 0 0px; }
+.top_bar{ float:right; margin:10px 0 0 0;font-size:0.83333rem; color: #ddc8a8; text-align: right; letter-spacing:0.125rem;}
+/* logo */
+.logo{cursor:pointer; width:515px; height:92px; float:left; margin:0px 0 0 0; background-image:url(../images/logo.png);}
+
+
+/*================================= footer ============================================*/
+#footer_bg{ background-image:url(/images/index_12.png); height:110px; width:100%;  margin:-5px auto 0 auto ; position: relative; size:100;}
+#footer { height:110px; width:1000px;  margin:0px auto 0 auto ;}
+.down_bar1{ background-image:url(/images/01.jpg); width:88px; height:31px; float:right; margin:50px 10px 0 auto;}
+.down_bar2{ font-size:0.75rem; color: #FFF; text-align: left;  letter-spacing:0.125rem; line-height:2em; padding:10px 0 0 0; width:600px; float: right;}
+.down_bar3{ font-size:0.75rem; color: #D3B3A3; text-align: left;  letter-spacing:0.125rem; line-height:2em;  width:600px; float: right; }
+.down_bar4{ background-image:url(/images/footer_logo.png); width:240px; height:53px; float: left; margin:-20px 0px 0 10px;}
+
+
+/*================================= banner 圖片 ============================================*/
+.pagesbanner{ height:600px; width:100%; margin:-20px 0 0 -243px; position: inherit; z-index:1; top:0px; }
+
+#mapParks{
+  height: 270px;
+  width: 230px;
+  background-image: url("/images/topmap.png");
+}
+
+
+
+
+
+/*=========================================================================================================================
+  index content  首頁主內容
+==========================================================================================================================*/
+/*== flash banner ==*/
+.banner_bg{ height:731px; width:1486px; position:relative; top:105px; left:0; margin:0 auto; z-index:10;}
+.indexbanner{ height:531px; width:1486px; position:absolute; z-index:15; background-image:url(../images/index_v3_banner_bg.png);}
+.taiwanmap{ height:454px; width:320; position:absolute; top:50px; right:250px; z-index:50;}
+
+/*== middle ==*/
+.middle_bg{
+height: 760px;
+margin: -80px auto 0px;
+position: relative;
+width: 1095px;
+z-index: 15;
+background: url(../images/middle_bg2.png) no-repeat 289px top;}
+
+/*== idx_left ==*/
+.idx_left{width:230px; height:650px; position: absolute; top:30px; left:55px;
+background: url(../images/idx_leftbg.png) repeat-y left top;font-size:0.8125rem;color:#524f47;}
+h2.left_title{
+background:url(../images/title001.png) no-repeat left top;
+display:block;
+overflow: hidden;
+line-height:562.5rem;
+width:230px;
+height:36px;
+margin:0px;}
+.left_info{padding:10px;}
+.left_info p.infowrod{margin-bottom:15px;}
+.left_info p.infowrod span{font-weight:bold;color:#794740;}
+.left_info p.infolist{float:left;width:80px;color:#000;}
+.left_info img{padding:6px;border:1px solid #c2bdac;}
+
+.history-today {
+  padding: 10px;
+}
+
+.history-today .date {
+  border: 2px solid #774B3E;
+  border-radius: 5px;
+  width: 25%;
+}
+
+.history-today .date .month {
+  background-color: #774B3E;
+  color: white;
+  text-align: center;
+}
+
+.history-today .date .day{
+  background-color: white;
+  font-size: 1.5625rem;
+  padding: 8px 0;
+  text-align: center;
+}
+/*== idx_left2 ==
+.idx_left{width:230px; height:650px; position: absolute; top:30px; left:55px; z-index:30;
+background: url(../images/idx_leftbg.png) repeat-y left top;font-size:13px;color:#524f47;}
+h2.left_title{
+background:url(../images/title001.png) no-repeat left top;
+display:block;
+overflow: hidden;
+line-height:9000px;
+width:230px;
+height:36px;
+margin:0px;}
+.left_info{padding:10px;}
+.left_info p.infowrod{margin-bottom:15px;}
+.left_info p.infowrod span{font-weight:bold;color:#794740;}
+.left_info p.infolist{float:left;width:80px;color:#000;}
+.left_info img{padding:6px;border:1px solid #c2bdac;}
+*/
+
+
+/*== 臉書 ==*/
+.fb_title{
+background:url(../images/title002.png) repeat-y left top;;
+display:block;
+overflow: hidden;
+line-height:562.5rem;
+width:230px;
+height:36px;
+margin:0px;}
+.face{width:230px; height:auto; position: absolute; top:275px; left:55px; margin:5px 0 0 0; background-color:#FFFFFF repeat-y left top;}
+
+/*== 臉書 ==
+.fb_title{
+background:url(../images/title002.png) no-repeat left top;
+display:block;
+overflow: hidden;
+line-height:9000px;
+width:230px;
+height:36px;
+margin:0px;}
+.face{width:230px; height:auto; position: absolute; top:275px; left:55px; margin:5px 0 0 0; z-index:9;background-color:#FFFFFF;}
+*/
+
+
+/*== 相關連結 ==*/
+.googleSearchZone{ width:250px; position: absolute;  height:30px; background-color: 00FF00;z-index:40;}
+.slidBox{ width:150px; position: absolute;  height:640px; background:url(../images/relatedlink_bg.png) no-repeat; z-index:40;}
+.imagesbox{overflow:hidden; margin:40px 0px 0 20px;}
+.linkpic{ width:115px; height:45px; margin:13px 0;}
+.linkpic img{border: 1px solid #e0c69e;}
+.linkpic img:hover{border: 1px solid #c98c2f;}
+
+/*== news 頁籤設定在tab.css==*/
+.ns_title{
+background:url(../images/news_title.png) no-repeat;
+display:block;
+overflow: hidden;
+line-height:562.5rem;
+width:133px;
+height:31px;}
+.ns_content ul{padding:0 20px;margin-top:15px;}
+.ns_content ul li{color:#6f6b5f; background:url(../images/icon_001.gif) no-repeat left 8px;
+padding:2px 0 2px 15px;margin:0 0 8px 0;border-bottom:1px solid #f3ebd6;box-shadow:1px 0px 1px #cfc5ae;}
+.ns_content ul li a:hover{color:#b54e44;}
+
+/*== 每月主題 ==*/
+.monthtopic{margin:10px 20px;height:200px; overflow:hidden;}
+.monthtopic img{float:right;padding:6px;border:1px solid #c2bdac;margin:10px 0 0 5px;}
+
+
+/*== 優良案例 ==*/
+.idx_case{background:url(../images/idx_case.png) no-repeat left top; width:594px; height:350px; position: relative; z-index:20; }
+h2.case_title{
+background:url(../images/case_title.png) no-repeat left 5px;
+display:block;
+overflow: hidden;
+line-height:562.5rem;
+width:133px;
+height:36px;}
+.idx_case h3{font-size:0.9375rem;}
+.casepic{width:140px; height:200px;float:left;margin-right:20px;}
+.casepic img{padding:6px;border:1px solid #c2bdac;}
+.caseinfo{float:left;width:550px;color:#524f47;font-size:0.8125rem;line-height:1.375rem;overflow:hidden;}
+.rmore{color:#c98c2f;}
+.rmore a:hover{color:#c98c2f;text-decoration: underline;}
+.morebtn{color:#3b80cd;display:block;float:right;margin-top:10px;text-decoration: underline;}
+.morebtn a:hover{color:#2c6bb9;text-decoration: underline;}
+.morebtn2{color:#3b80cd;display:block;float:right;margin:15px 20px 0 0;text-decoration: underline;}
+.morebtn2 a:hover{color:#2c6bb9;text-decoration: underline;}
+.morebtn3{color:#3b80cd;display:block;margin:5px 20px 0 0;text-decoration: underline;}
+.morebtn3 a:hover{color:#2c6bb9;text-decoration: underline;}
+
+
+.monthtopic .morebtn200{
+	color:#3b80cd;
+	display:block;
+	text-decoration: underline;
+	position: relative;
+	left: 200px;
+	top: 50px;
+}
+.monthtopic .morebtn200 a:hover{color:#2c6bb9;text-decoration: underline;}
+
+/*== 典藏精選/照片、紀念品 ==*/
+.idx_prodsbox{float:left;width:130px;height:165px;margin:8px 5px 0 5px;}
+.idx_prodsbox a:hover{color:#b54e44;}
+.idx_prodsbox p{width:120px;}
+.idx_prodspic{width:105px;height:105px;padding:1px;border:1px solid #c2bdac;margin-bottom:5px;
+  text-align : center;
+  /* Firefox, Chrome */
+  line-height : 6.875rem;
+  /* IE */
+  *font-size : 5.9375rem;
+  *font-family : Arial;
+  }
+.idx_prodsbox div:after {
+  content : ".";
+  font-size : 0;
+  -webkit-text-size-adjust : none;
+}
+ .idx_prodspic img{vertical-align :middle;}
+
+/*== 典藏精選/歷史新聞 ==*/
+ul.tab_oldnews{height:180px;margin:0 10px 0 0px;}
+ul.tab_oldnews li{color:#6f6b5f; background:url(../images/icon_001.gif) no-repeat left 8px;
+padding:2px 0 2px 15px;margin:0 0 8px 0;border-bottom:1px solid #f3ebd6;box-shadow:1px 0px 1px #cfc5ae;}
+ul.tab_oldnews li a:hover{color:#b54e44;}
+ul.tab_oldnews li span{font-size:0.75rem;color:#764e49;margin-right:8px;}
+
+/*==多媒體典藏==*/
+.idx_multimedia{color:#6f6b5f;float:left;width:150px;light:150px;margin:0 30px 0 5px;}
+.idx_multimedia a:hover{color:#b54e44;}
+.idx_multimedia img{height:98px;width:138px; padding:6px; border:#d8d2c5 1px solid;margin-bottom:5px;}
+.idx_multimedia p{margin:0px;}
+.idx_multimedia p span{display:block;color:#333;}
+
+
+/*== 相關活動連結 ==*/
+.index_events{width:1000px; height:92px; position: absolute; top:650px; left:60px; z-index:30;
+background:url(../images/idx_events_bg.png) no-repeat 130px top;padding-top:20px;}
+.index_evt_title{
+background:url(../images/title003.png) no-repeat left 5px;
+display:block;
+overflow: hidden;
+line-height:562.5rem;
+width:127px;
+height:60px;
+float:left;}
+.index_events ul{float:left;padding:0 0 0 5px;overflow:hidden;margin-left:10px;}
+.index_events ul li{float:left;}
+.index_events ul li img{border:1px solid #c0b8b2;padding:1px;margin-left:8px;}
+.index_events ul li img:hover{border:1px solid #000;}
+/*=========================================================================================================================
+  index content  首頁主內容  end
+==========================================================================================================================*/
+
+
+
+
+/*=========================================================================================================================
+ 內頁web1版型 基本設定  >>  國家公園史│國家公園環境教育
+==========================================================================================================================*/
+.pagesdiv{height: auto; width:1000px; margin:0 auto; position: relative; z-index:1;}
+
+/*path*/
+.path{background:url(../images/path.png) no-repeat; padding-left:10px; width:780px; height:40px;
+position: absolute; top:270px;  left:240px; z-index:2;color:#6e635f;font-size:0.8125rem;line-height:1.875rem;}
+.path a:hover{color:#a14b1a;}
+.pathicon{ background:url(../images/icon_003.png) no-repeat left top;padding-left:20px;}
+
+/*主內容*/
+.mainpage{
+width:750px; height: auto; position: relative; top:0px; left:240px; z-index:1; margin-top:-270px;
+background:url(../images/content_bg_sd.png) no-repeat right top;
+min-height:580px;
+height:auto !important;
+height:580px;
+overflow:visible;
+padding-right:30px}
+
+/*內容標題*/
+.web1subimage{ width:59px; height:45px ;background-image:url(../images/book.png);float:left;margin-top:-10px;}/*內容標題小圖*/
+.web1sub{ width:430px; height:40px;font-size:1.16667rem;line-height:1.5625rem; padding:5px 0 0 65px;margin-top:5px;font-weight:bold; color:#993300;}
+
+/*社群分享*/
+.share{ position: absolute; top:0px; right:0px; width:170px; height: auto; z-index:3; }
+
+/*字體大小*/
+#big , #middle , #small , #ctrl{ float:left; padding:0 3px;}
+#big , #middle , #small{ cursor:pointer; color:#bf755a; background:#e1ded6; margin:0 2px;}
+.web1font_ctrl{ background:url(../images/line002.png) repeat-x left bottom; width: auto; height:30px; position: absolute; top:-10px; right:13px; z-index:4;margin-top:5px;color:#9a8d6f;}
+
+/*文章段落*/
+.page_article{line-height:1.8em;}
+.article_01{margin:0 15px 0 10px;
+/*min-height:400px; */
+height:auto !important;
+height:400px;}
+.divider{background-image:url(../images/divider2.png); height:6px; margin:5px 0;}
+.divider2{clear:both;border-bottom:1px #b57b5c dotted; margin:8px 0;}
+
+/*日據時期連結*/
+.article_04 h3{color:#000;font-size:115%;background:url(../images/icon_004_2.png) no-repeat left top;padding:0 0 5px 20px;
+border-bottom:8px #74291c solid;}
+.article_04 p{margin:0 0 5px 0px;padding:0px;}
+ul.listyle_01{margin:0px;padding:0px;}
+ul.listyle_01 li{background:url(../images/icon_003.gif) no-repeat left 8px;padding:0 0 0 10px;margin-bottom:5px;}
+ul.listyle_01 li span{color:#73433a;}
+ul.listyle_01 li a:hover{color:#000;}
+
+/*人物專訪*/
+.article_inv{overflow:hidden;height:auto;}
+.article_inv h3{color:#000;font-size:115%;background:url(../images/icon_004_3.png) no-repeat left top;padding:0 0 5px 20px;
+border-bottom:8px #74291c solid;}
+.invlist{float:left; weight:120px;height:150px;margin:0 35px 0 0;}
+.invlist img{border:1px solid #c0b8b2;padding:3px;}
+.invlist p{font-size:110%;margin:0px 0 5px 0;font-weight:bold;color:#333;}
+
+/*按鈕工具列*/
+.btntools{ position:relative; width:700px; height: auto; z-index:3;}/*按鈕工具列*/
+.home{ background:url(../images/home.png) no-repeat; width:60px; height:22px; float: left;padding-left:25px;}
+.goback{ background:url(../images/goback.png) no-repeat; width:60px; height:22px; float: left;padding-left:25px;}
+.gotop{ background:url(../images/gotop.png) no-repeat; width:95px; height:22px; float: left;padding-left:25px;}
+.web1_listbg{background:url(../images/pageslist_bg.png) no-repeat right bottom; width:790px; height:456px; z-index:1;margin :-380px 0 10px 0;}
+/*=========================================================================================================================
+ 內頁web1版型 基本設定 >> 國家公園史│國家公園環境教育 end
+==========================================================================================================================*/
+
+
+
+/*=========================================================================================================================
+大事件list >>  國家公園史(web1_list)│各國家公園大事記│環境教育大事記(web30_list)│登山史(web20_list)
+==========================================================================================================================*/
+.web1_list{ width:727px; height: auto; z-index:2;background: url(../images/web1_bg.png) no-repeat left top;padding-top:40px;margin-left:10px;}
+.web30_list{ width:727px; height: auto; z-index:2;padding-top:0px;margin-left:10px;}
+.web1_list > .list_trsub, .web30_list > .list_trsub{color: #000; line-height:1.5em;background:url(../images/icon_004.png) no-repeat left 5px;
+padding-left:25px;margin-bottom:5px;font-size:1rem;font-weight:bold;}
+.notebar{background:#74291c url(../images/icon_005.png) no-repeat left top;color:#fff;padding:3px 20px;}
+.notebar_green{background:#737440 url(../images/icon_005.png) no-repeat left top;color:#fff;padding:3px 20px;}
+
+/*大事件list jq*/
+.arrowlist{background:url(../images/event_list_bg.jpg) repeat left top;}
+.arrowbg{overflow:hidden;border-bottom:#d9d0bb 1px dotted; padding:0 20px;}
+.arrowlist .menuheader{background: url(../images/icon_006.png) no-repeat 0 36px; cursor: pointer; padding: 8px 0 10px 0;color:#993333; font-weight:bold;}
+.arrowlist .menuheader:hover{color:#235f9c;}
+.arrowlist .openheader{background: url(../images/icon_007.png) no-repeat 0 36px; padding: 8px 0 10px 0;font-weight: bold;margin-top:5px;color:#235f9c;}
+.arrowlist ul{margin: 0 20px 40px 20px; padding:15px 20px 20px 20px; color:#787878;background:#fbf9f6;border:#dbd1c0 1px solid;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+-o-border-radius: 4px;
+border-radius: 4px;
+box-shadow: 0 1px 2px rgba(0,0,0,.2);
+-webkit-box-shadow: 1px 1px 2px rgba(0,0,0,.2);
+-moz-box-shadow: 1px 1px 2px rgba(0,0,0,.2);
+-o-box-shadow: 1px 1px 2px rgba(0,0,0,.2); }
+.span1{ color:#585048; display:block;padding-left:20px;font-weight:normal;line-height:1.5em;}
+.arrowlist .openheader .span1{color:#235f9c;}
+/*=========================================================================================================================
+ 大事件list >> 國家公園史│各國家公園大事記│環境教育大事記│登山史 end
+==========================================================================================================================*/
+
+
+
+
+/*=========================================================================================================================
+ web8 各國家公園主頁 >> 在 tab8/css
+==========================================================================================================================*/
+
+
+
+/*=========================================================================================================================
+ web30 環境教育  >>  在 tab6/css/nationlpark.css
+==========================================================================================================================*/
+
+
+
+/*=========================================================================================================================
+ web20 登山史 >>  在 tab7/css/nationalpark.css
+==========================================================================================================================*/
+
+
+
+
+/*=========================================================================================================================
+  共用 table set
+==========================================================================================================================*/
+.tablestyle_01{width:100%;}
+.tablestyle_01 .td_style{color:#9b7d50;}
+.tablestyle_01 td {border-bottom: 1px solid #d9c9ae;}
+
+.tablestyle_02{width:100%;border:1px #aea494 solid;color:#424242;margin-top:30px;}
+.tablestyle_02 thead{background:#7e5444;color:#fff;}
+.tablestyle_02 td {border-bottom: 1px dotted #aea494;padding:5px 0;}
+.tablestyle_02 td.center{text-align:center;}
+.tablestyle_02 td.textred{color:#a72f17}
+.tablestyle_02 td.text15{font-size:0.9375rem;font-weight:bold;}
+.tablestyle_02 .rol2{background:#e0d8ca;}
+
+.tablestyle_03{width:100%;color:#424242;background:url(../images/event_list_bg.jpg) no-repeat left top;margin-top:0px;}
+.tablestyle_03 thead{background:#737440;color:#fff; font-weight:normal;}
+.tablestyle_03 thead th{font-weight:normal;}
+.tablestyle_03 td {border-bottom: 1px dotted #aea494;padding:5px 0;}
+.tablestyle_03 td.center{text-align:center;}
+.tablestyle_03 tr.bgcolor{background: url(../images/tb_bg.png) repeat left top;}
+
+.tablestyle_04{width:100%;color:#424242;border-top:3px solid #c79940;background:url(../images/event_list_bg.jpg) repeat left top;}
+.tablestyle_04 thead th{background:#d4c3a2;color:#615640;font-weight:bold;text-align:center;line-height:1.125rem;}
+.tablestyle_04 td{border: 1px solid #d7b572;padding:5px 8px;}
+.tablestyle_04 td img{margin-right:5px;vertical-align: middle;}
+.tablestyle_04 td.center{text-align:center;}
+.tablestyle_04 tr.bgcolor{background: url(../images/tb_bg.png) repeat left top;}
+.tablestyle_04 .td_r_border {border-right: none;text-align:center;}
+.tablestyle_04 .dw a, .tdsty01 a{color:#6e5215;text-decoration: underline;}
+.tablestyle_04 .dw a:hover, .tdsty01 a:hover{color:#912f09;}
+.tdsty01{color:#8c7950;}
+.thlin01{border-right: 1px solid #F5F3E4;margin: 4px 0;}
+.thlin02{border-left: 1px solid #9E9961;border-right: 1px solid #F5F3E4;margin:4px 0;}
+.thlinlast{border-left: 1px solid #9E9961;margin:4px 0;}
+
+.people_table{clear:both;margin-top:10px;padding-top:10px;background:url(../images/divider2.png) no-repeat left top;}
+.people_table .td_r_border {border-right: none;text-align:left;}
+
+.tablestyle_mot{width:99%;color:#424242;border-top:3px solid #c79940;background:url(../images/event_list_bg.jpg) repeat left top;}
+.tablestyle_mot thead th{background:#d4c3a2;color:#615640;font-weight:bold;text-align:center;line-height:1.125rem;}
+.tablestyle_mot td{border: 1px solid #d7b572;padding:5px 8px;}
+.tablestyle_mot td.green{background:#c8e094;}
+.tablestyle_mot td.gray{background:#dbdfce;}
+.tablestyle_mot td.org{background:#f2d1ac;}
+.tablestyle_mot td.lyellow{background:#fcfad1;}
+.tablestyle_mot td.blue{background:#c9e1f0;}
+.tablestyle_mot td.pink{background:#ffe5e5;}
+.tablestyle_mot td.lblue{background:#d0f4f5;}
+.tablestyle_mot td.noline{border:none;}
+/*=========================================================================================================================
+  table set
+==========================================================================================================================*/
+
+
+
+/*=========================================================================================================================
+  共用(靜態排版)
+==========================================================================================================================*/
+/*文章內容排版*/
+.article_pagemain img{float:right; margin:0 0 15px 15px;}
+.article_pagemain img.flt{float:left; margin:0 15px 15px 0 ;}
+.article_pagemain img.center{margin:15px 15px 15px 0px;float:none; border:1px solid #dad2c7; padding:7px;}
+.article_pagemain img.styborder{border:1px solid #dad2c7; padding:8px;}
+.article_pagemain ol{padding:20px 25px;margin:20px 0;}
+.article_pagemain ol li{margin:0 0 5px 0;list-style-type:decimal;border-bottom:1px #b86345 dotted;}
+.article_pagemain ol.olsty001{background:#cfe7e9;}
+.article_pagemain ol.olsty001 li{border-bottom:1px dotted #138bb8;list-style: url("../images/icon_003.gif") none inside; }
+.imgword{color:#358da6;margin:15px;}
+.imgword img{margin:0 0 5px 0;float:none;}
+.imgword p{font-size:0.75rem;line-height:1.125rem;margin-left:5px;}
+.imgword p span{margin-left:12px;}
+
+.flR{float:right;}
+.flL{float:left;}
+.clearfix{clear:both;}
+
+/*文字*/
+.font001{color:#7e5722;font-weight:bold;font-size:115%;}
+.font002{color:#af4e49;}
+.font003{color:#797a09;font-weight:bold;font-size:115%;}
+.font004{color:#323230;font-weight:bold;}
+.font005{color:#49869c;font-weight:bold;}
+.font006{color:#73821f;font-weight:bold;}
+.font007{color:#b4724f;font-weight:bold;font-size:115%;margin:3px 0;}
+.linesty{background:url(../images/divider2.png) no-repeat left top;margin:10px 0;padding:20px 0 10px 0;}
+
+.st_mag10{margin:10px 0;}
+.st_mag15{margin:15px 0;}
+.st_black14{color:#000;font-size:115%;}
+.st_italic{font-style:italic;font-family:"華康中黑體", "細明體";}
+
+/* block for 首頁典藏案例 tab */
+.caseinfo_all { display:flex;}
+
+.categoryitems{display: none;}
+
+.web7_listbg{background:url(../images/pageslist_bg.png) no-repeat right bottom; width:100%; height:456px; z-index:1;margin :-380px 0 10px 0;}
